@@ -1,9 +1,14 @@
 body {
-    background: url("https://courses.ics.hawaii.edu/ics314s23/morea/ui-frameworks/wod-boardroom-background.jpg") no-repeat center center fixed;
-    background-size: cover;
-    height: 100vh;
+  background: url("https://courses.ics.hawaii.edu/ics314s23/morea/ui-frameworks/wod-boardroom-background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  --bs-light-rgb: 146, 146, 145;
 }
-nav, footer {
-  background-color: rgb(146,146,145);
-  color: white;
+.navbar {
+  --bs-navbar-brand-color: white;
+}
+.centerLogo {
+  height: 500px;
+}
+footer a {
+  color: black;
 }
