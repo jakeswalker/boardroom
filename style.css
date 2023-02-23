@@ -1,0 +1,9 @@
+body {
+    background: url("https://courses.ics.hawaii.edu/ics314s23/morea/ui-frameworks/wod-boardroom-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+nav, footer {
+  background-color: rgb(146,146,145);
+  color: white;
+}
